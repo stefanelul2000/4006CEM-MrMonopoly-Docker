@@ -1,0 +1,8 @@
+discord.py
+spacy
+giphy_client
+pymongo
+alpha_vantage
+matplotlib
+numpy
+dnspython
