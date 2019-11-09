@@ -5,7 +5,7 @@ if [[ ! -d /app/.git ]]; then
   echo '----------------------'
   echo '| Cloning PythonChat |'
   echo '----------------------'
-  git clone https://stefanelul2000:24fb384437f948b8122e4517d84006b69c15f214@github.com/stefanelul2000/pythonchat.git /app
+  git clone https://stefanelul2000:fb05c7cb6d7d9223d07d1390a4e5f170736e4a9b@github.com/stefanelul2000/pythonchat.git /app
   cd /app || (echo 'Failed to load PythonChat repository folder'; exit)
 elif [[ -d /app/.git ]]; then
   echo '----------------------'
@@ -18,10 +18,6 @@ elif [[ -d /app/.git ]]; then
   git reset --hard origin/master
   git pull
 fi
-
-# Set Permissions
-#chown -R abc:abc \
-#        /config'
 
 # Start bot
 python /app/bot.py
