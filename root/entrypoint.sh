@@ -1,6 +1,7 @@
 #!/bin/sh
 
-# Clone repo or update existing
+# Clone repo if it doesn't exist
+# or update existing directory if it does
 if [[ ! -d /app/.git ]]; then
   echo '----------------------'
   echo '| Cloning PythonChat |'
