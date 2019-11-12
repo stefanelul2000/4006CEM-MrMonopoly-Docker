@@ -6,3 +6,5 @@ alpha_vantage
 matplotlib
 numpy
 dnspython
+tensorflow
+nltk
