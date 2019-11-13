@@ -6,5 +6,4 @@ alpha_vantage
 matplotlib
 numpy
 dnspython
-tensorflow==2.0.0
 nltk
